@@ -1,2 +1,2 @@
 # rsschool-cv
-https://coldquite.github.io/rsschool-cv/cv
+https://github.com/coldquite/rsschool-cv/blob/gh-pages/cd.md
