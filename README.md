@@ -1,2 +1,2 @@
 # rsschool-cv
-The first task from RS School
+https://coldquite.github.io/rsschool-cv/cv
