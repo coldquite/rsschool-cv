@@ -8,7 +8,7 @@
   <link rel="icon" href="assets/img/favicon.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Lato:wght@300;400;700;900;1200&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -22,14 +22,18 @@
         <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
         <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
         <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-        <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+        <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
       </ul>
     </nav>
   </header>
 
-  <main>
-    <section class="section" id="profile">
-      <h1 class="section-title">Andrii Pihal</h1>
+  <main class="main-container">
+    <section class="section">
+      <div class="title-img"><img src="./assets/img/me.png" alt="avatar" class="avatar"></div>
+    </section>
+    <section class="title-txt">
+      <h1 class="section-title" style="color:#ffee77; font-size: xx-large;"><b>Andrii Pihal</b></h1>
+      <h2 class="section-title-other">Intern Frontend Developer</h2>
     </section>
 
     <section class="section" id="contacts">
@@ -63,33 +67,57 @@
 
     <section class="section" id="code">
       <h2 class="section-title">Code</h2>
-      <code>def points(games):
-        counter = 0
-        for i in games:
-            if i[0] > i[2]:
-                counter += 3
-            elif i[0] == i[2]:
-                counter += 1
-        return counter</code>
+      <pre><code><span class="red-txt">def</span> <span class="pink-txt">points</span>(games):
+    counter<span class="blue-txt"> = 0</span>
+    <span class="red-txt">for</span> i <span class="blue-txt">in</span> games:
+        <span class="red-txt">if</span> i[<span class="blue-txt">0</span>] &gt i[<span class="blue-txt">2</span>]:
+            counter <span class="blue-txt">+= 3</span>
+        <span class="red-txt">elif</span> i[<span class="blue-txt">0</span>] <span class="blue-txt">==</span> i[<span class="blue-txt">2</span>]:
+            counter <span class="blue-txt">+= 1</span>
+    <span class="red-txt">return</span> counter</code></pre>
     </section>
 
     <section class="section" id="courses">
       <h2 class="section-title">Courses</h2>
+      <ul>
+        <li><a class="link" href="https://stepik.org/cert/1395988">"Поколение Python": курс для начинающих</a></li>
+        <li><a class="link" href="https://stepik.org/cert/1456269">"Поколение Python": курс для продвинутых</a></li>
+        <li><a class="link" href="https://stepik.org/cert/1520307">Добрый, добрый Python - обучающий курс от Сергея Балакирева</a></li>
+        <li><a class="link" href="https://stepik.org/cert/1567273">Добрый, добрый Python ООП - обучающий курс от Сергея Балакирева</a></li>
+        <li><a class="link" href="https://programming.org.ua/ru/courses/adults">Ш++ CS Java Course</a></li>
+      </ul>
     </section>
 
     <section class="section" id="projects">
       <h2 class="section-title">Projects</h2>
+      <ul>
+        <li><a href="https://stepik.org/cert/1395988">"Поколение Python": курс для начинающих</a></li>
+      </ul>
     </section>
 
     <section class="section" id="education">
       <h2 class="section-title">Education</h2>
+      <p>Faculty of Information Technology, Czech Technical University in Prague</p>
     </section>
 
     <section class="section" id="languages">
       <h2 class="section-title">Languages</h2>
+      <ul>
+        <li><span class="yellow-txt">English: </span>B1</li>
+        <li><span class="yellow-txt">Czech: </span>B2</li>
+        <li><span class="yellow-txt">Ukrainian: </span>Native speaker</li>
+        <li><span class="yellow-txt">Russian: </span>Native speaker</li>
+      </ul>
     </section>
   </main>
 
+  <footer class="footer">
+    <p>© 2023</p>
+    <a href="https://github.com/coldquite" class="nav-link">Made by coldquite</a>
+    <a href="https://rs.school/js/" class="link">
+   <img src="./assets/img/rss.png" class="logo" alt="rss logo">
+   </a>
+  </footer>
 
 </body>
 </html>
