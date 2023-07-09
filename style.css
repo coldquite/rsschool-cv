@@ -11,6 +11,8 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        background-color: black;
+        color: #fff;
     }
 h1, h2 {
     font-family: 'Lato', sans-serif;
@@ -39,6 +41,7 @@ footer {
     line-height: 50px;
     transition: 0.7s;
     text-decoration: none;
+    color: #eb6188;
   }
 .section-item a {
     color: #829985;
@@ -48,6 +51,20 @@ footer {
 .section-item a:hover {
     color: #4d2323;
   }
-.nav-link:hover {
+.nav-link:hover{
     text-decoration: underline;
+    color: #dcb800;
+}
+.section-title{
+}
+.yellow-txt{
+    color: #dcb800;
+}
+.section-link{
+  transition: 0.7s;
+    text-decoration: none;
+    color: #c79bfa;
+}
+.section-link:hover{
+  color: #eb6188;
 }
