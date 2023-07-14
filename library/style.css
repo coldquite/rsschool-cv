@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+  }
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+  }
+header {
+    background: #0C0C0E;
+    display: flex;
+    height: 90px;
+    width: 1440px;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    color: #FFF;
+    font-family: Forum;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; /* 166.667% */
+    letter-spacing: 0.6px;
+    margin-left: 20px;
+
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+.nav-list {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 30px;
+    margin-left: 394px;
+    margin-top: 20px;
+  }
+.nav-link{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; /* 250% */
+    text-decoration: none;
+    transition: 1s;
+  }
+.icon-profile{
+  margin: 31px 20px 31px;
+}
