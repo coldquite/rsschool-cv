@@ -1,38 +1,76 @@
 <!DOCTYPE html>
 <html lang="eng">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Brooklyn Library</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="icon" href="assets/img/favicon.ico">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Forum&family=Inter:wght@400;700&display=swap" rel="stylesheet">
-      </head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brooklyn Library</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/img/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Forum&family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
   <body>
     <header>
       <h1>Brooklyn Public Library</h1>
       <nav>
         <ul class="nav-list">
           <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
-          <li class="nav-item"><a href="#favorites" class="nav-link">Favorites</a></li>
-          <li class="nav-item"><a href="#coffe-shop" class="nav-link">Coffee Shop</a></li>
-          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-          <li class="nav-item"><a href="#library-card" class="nav-link">Library Card</a></li>
+          <li class="nav-item">
+            <a href="#favorites" class="nav-link">Favorites</a>
+          </li>
+          <li class="nav-item">
+            <a href="#coffe-shop" class="nav-link">Coffee Shop</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contacts" class="nav-link">Contacts</a>
+          </li>
+          <li class="nav-item">
+            <a href="#library-card" class="nav-link">Library Card</a>
+          </li>
         </ul>
       </nav>
-      <img class="icon-profile" src="assets/img/icon_profile.svg" alt="profile icon">
+      <img
+        class="icon-profile"
+        src="assets/img/icon_profile.svg"
+        alt="profile icon"
+      />
     </header>
     <main>
-        <section class="welcome">
-          <div class="overlay"></div>
-          <p class="welcome-text">Welcome<br> to the Brooklyn <br>library</p>
+      <section class="welcome">
+        <div class="overlay"></div>
+        <p class="welcome-text">
+          Welcome<br />
+          to the Brooklyn <br />library
+        </p>
+      </section>
+      <section class="about" id="about">
+        <h2 class="about-titile">about</h2>
+        <hr class="about-line" />
+        <p class="about-text">
+          The Brooklyn Library is a free workspace, a large number of books and
+          a cozy coffee shop inside
+        </p>
+        <section class="images-items">
+          <img
+            class="images-item"
+            src="assets/img/image1.png"
+            alt="girl in the library"
+          />
+          <img class="images-item" src="assets/img/image2.png" alt="statues" />
+          <img class="images-item" src="assets/img/image3.png" alt="library" />
         </section>
-        <section class="about" id="about">
-          <h2 class="about-text">About<h2/>
-          <hr class="about-line">
-        </section>
+        <div class="carousel-pagination">
+          <img
+            src="assets/img/CarouselPagination.svg"
+            alt="Carousel Pagination"
+          />
+        </div>
+      </section>
     </main>
     <footer></footer>
   </body>

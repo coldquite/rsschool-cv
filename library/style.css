@@ -68,7 +68,6 @@ h1{
   background: linear-gradient(180deg, #0C0C0E 0%, #0C0C0E 0.01%, rgba(9, 9, 41, 0.1) 100%);
   width: 1440px;
   height: 300px;
-  flex-shrink: 0;
 }
 .welcome-text{
   color: #FFF;
@@ -81,7 +80,6 @@ h1{
   letter-spacing: 3px;
   text-transform: uppercase;
   width: 520px;
-  flex-shrink: 0;
   margin-top: -45px;
   margin-left: 40px;
   background-color: #0C0C0E;
@@ -91,7 +89,7 @@ h1{
   height: 837px;
   background: #FFF;
 }
-.about-text{
+.about-titile{
   color: #0C0C0E;
   font-family: Forum;
   font-size: 40px;
@@ -101,10 +99,33 @@ h1{
   letter-spacing: 2px;
   text-transform: capitalize;
   text-align: center;
+  margin: 20px;
   }
 .about-line{
   width: 50px;
   height: 1px;
-  flex-shrink: 0;
   background: #0C0C0E;
+}
+.about-text{
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 200% */
+  margin-top: 40px;
+}
+.images-items{
+  display: flex;
+  width: 1400px;
+  height: 560px;
+  justify-content: space-between;
+  margin: auto;
+}
+.carousel-pagination{
+  margin: auto;
+  width: 68px;
+  height: 16px;
+  margin-top: 40px;
 }
