@@ -1,1 +1,1 @@
-coldquite-2023Q1
+https://coldquite.github.io/rsschool-cv/library
