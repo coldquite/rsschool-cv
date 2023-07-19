@@ -302,7 +302,7 @@ margin: auto;
 .coffee-shop{
   display: flex;
   width: 1440px;
-  padding: 20px 20px 40px 20px;
+  padding: 20px 20px 20px 20px;
   flex-direction: column;
   align-items: center;
   gap: 40px;
@@ -362,4 +362,154 @@ font-weight: 400;
 line-height: 40px; /* 200% */
 letter-spacing: 2px;
 text-transform: capitalize;
+}
+.contact-info{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 201px;
+}
+.map-img{
+  width: 696px;
+height: 414px;
+margin-top: 30px;
+}
+.maps-title{
+  color: #000;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; /* 200% */
+letter-spacing: 2px;
+text-transform: capitalize;
+padding-top: 20px;
+padding-bottom: 20px;
+text-align: left;
+}
+.contact-text{
+  color: #000;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 200% */
+letter-spacing: 2px;
+text-transform: capitalize;
+text-align: left;
+}
+.library-text{
+  text-align: right;
+  width: 456px;
+  color: #000;
+text-align: right;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 200% */
+letter-spacing: 0.4px;
+}
+.library-title2{
+  color: #000;
+  text-align: center;
+  font-family: Forum;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  text-align: right;
+}
+.library-title1{
+  color: #000;
+font-family: Inter;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.6px;
+margin-left: 140px;
+}
+.card-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: 3px solid #BB945F;
+background: #FFF;
+width: 600px;
+height: 386px;
+flex-shrink: 0;
+}
+.library-columns{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+.library-column2{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.check-button{
+  color: #0C0C0E;
+		background-color: #ffffff;
+		font-size: 20px;
+		border: 1px solid #ffffff;
+		cursor: pointer;
+    width: 245px;
+    height: 45px;
+    margin-left: 20px;
+    border-radius: 2px;
+    border: 1px solid #0C0C0E;
+    color: #0C0C0E;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    margin-left: -10px;
+    margin-top: -10px;
+}
+.check-button:hover{
+    text-decoration: underline;
+}
+.gold-bg{
+  display: flex;
+  flex-direction: column;
+  width: 560px;
+  height: 272px;
+  flex-shrink: 0;
+  background: #BB945F;
+  align-items: center;
+  justify-content: space-around;
+}
+.card-title{
+  color: #000;
+font-family: Forum;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 50px; /* 166.667% */
+letter-spacing: 0.6px;
+text-align: left;
+margin: 0;
+}
+.rd-input{
+  width: 520px;
+height: 66px;
+flex-shrink: 0;
+border-radius: 10px;
+border: #FFF;
+background: #FFF;
+color: #8E8E8E;
+font-family: Forum;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 50px; /* 166.667% */
+letter-spacing: 0.6px;
 }
